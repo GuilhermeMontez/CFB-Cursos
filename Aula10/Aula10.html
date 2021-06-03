@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+    <script>
+
+        var nota = 95;
+        var res;
+
+        //Aprovado com louvor >=95 
+        //aprovado nota >= 70
+        //recuperação >= 40
+        //reprovado >= 20
+        //reprovado com louvor < 20
+
+        if (nota >= 60) {
+            res = "Aprovado"
+            if (nota >= 95) {
+                if (nota == 100) {
+                    res += " com excelencia."
+                } else {
+                res += " com louvor.";
+                }
+            } else {
+                res += " com nota normal.";
+            }
+
+        } else if(nota >= 40) {
+            res = "Recuperação.";
+        } 
+        
+        else {
+            res = "Reprovado"
+            if (nota >= 20) {
+            res +=" com nota baixa.";
+            } else {
+            res += " com louvor.";
+            }
+        }
+        document.write(res)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

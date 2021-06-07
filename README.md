@@ -1,3 +1,2 @@
 # CFB-Cursos
-Curso focado no etudo da linguagem JavaScript.
-
+Course focused on the study of JavaScript language.

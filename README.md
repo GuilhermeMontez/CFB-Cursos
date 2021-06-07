@@ -1,2 +1,3 @@
 # CFB-Cursos
-Cursando atualmente
+Curso focado no etudo da linguagem JavaScript.
+

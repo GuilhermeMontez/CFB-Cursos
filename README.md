@@ -1,2 +1,2 @@
 # CFB-Cursos
-Cursando atualmente
+Course focused on the study of JavaScript language.

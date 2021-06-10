@@ -1,5 +1,7 @@
 var pos, msg, pontos;
 
+    // Classificação
+
     pontos = 100;
 
     if(pontos >= 1000) {

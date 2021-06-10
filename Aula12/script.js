@@ -1,6 +1,6 @@
 var pos, msg, pontos;
 
-    // Classificação
+    // Switch/case
 
     pontos = 100;
 
